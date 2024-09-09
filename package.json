@@ -9,7 +9,7 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
     "test": "vitest",
-    "prepare": "npm run format && npm run lint && npm run build && vitest run && publint"
+    "prepare": "npm run lint && npm run build && vitest run && publint"
   },
   "files": [
     "dist",
